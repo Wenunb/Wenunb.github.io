@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>CanadaTrip.kml</name>
+	<description>Trip Lines Between Canada Cities</description>
+
+    <Style id="path">
+      <LineStyle>
+                <color>ff00ccff</color>
+        <width>8</width>
+      </LineStyle>
+    </Style>
+ 
+	        <Placemark>
+			<name>Path</name>
+			<LineString>
+				<altitudeMode>relative</altitudeMode>
+     
+				<coordinates>
+					-66.643115,45.963589,0 -79.383184,43.653226,0 
+					-114.070846,51.048615,0 -114.371789,62.453972,0 
+					-123.365644,48.428421,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		
+		
+</Document>
+</kml>
